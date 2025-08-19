@@ -1,15 +1,10 @@
 import React from "react";
 
-const WelcomeScreen = ({ onContinue }) => {
+export default function WelcomeScreen() {
   return (
-    <div className="text-center" style={{padding:"50px"}}>
-      <h1>Chá de Revelação</h1>
-      <p>Gabriel & Natalia</p>
-      <button className="pulse" onClick={onContinue}>
-        ✨ Mais Informações ✨
-      </button>
+    <div>
+      <h1>Bem-vindo ao Chá Revelação 🎉</h1>
+      <p>Estamos muito felizes em ter você aqui!</p>
     </div>
   );
-};
-
-export default WelcomeScreen;
+}
